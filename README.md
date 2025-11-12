@@ -88,10 +88,6 @@ The system is modular, consisting of four key components:
 3. **Database Layer (SQLAlchemy)** — Stores structured product metadata and weight averages.  
 4. **AI Layer (OpenAI Vision + OCR)** — Performs text extraction and visual weight approximation.
 
-### 🔹 Architecture Diagram  
-*(Attach image here)*  
-![System Architecture](path/to/architecture.png)
-
 **Flow:**  
 `User Upload → OCR → Metadata Parsing → Weight Detection → AI Approximation → DB Storage → Category Analytics`
 
